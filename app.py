@@ -18,7 +18,7 @@ def process():
         return date.toordinal()
     features=[]
     y=0
-    pattern=r'^[A-Z]{2}.'
+    pattern=r'^[a-zA-Z].'
 
     for x in request.form.values():
         if x=='positive':
